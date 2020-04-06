@@ -1,0 +1,115 @@
+body{
+	background-image: url(https://papers.co/wallpaper/papers.co-sh72-pastel-icecream-gradation-blur-36-3840x2400-4k-wallpaper.jpg);
+}
+#list{
+	color: aliceblue;
+}
+#bg1{
+	background-image: url("https://images.unsplash.com/photo-1532190370294-e81fe487b61a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+	position: relative;
+
+  }
+  #head1{
+	  color:white;
+	  font-weight: bold;
+  }
+  #pinfo{
+	color:white;
+	font-weight: bold;
+    font-size: large;
+  }
+  .card{
+	  opacity:0.8;
+  }
+#para{
+	font-family: nutino;
+	font-weight: 700;
+	font-size: x-large;
+	font-style: italic;
+	color: yellow;
+	margin-left: 10px;
+}
+#brand{
+	color: white;
+}
+#headg{
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color:#000000;
+}
+#list1{
+	font-weight: 500;
+	color:white;
+	font-size: 25px;
+}
+#list2{
+	font-weight: 500;
+	color:white;
+	font-size: 25px;
+}
+#name{
+	color: #000000;
+	font-weight: 700;
+}
+#email{
+	color: #000000;
+	font-weight: 700;
+}
+#pass{
+	color: #000000;
+	font-weight: 700;
+}
+#passr{
+	color: #000000;
+	font-weight: 700;
+}
+#gen{
+	color: #000000;
+	font-weight: 700;
+}
+#lab{
+	color: #000000;
+	font-weight: 700;
+}
+#headf{
+	color: #000000;
+	font-weight: 700;
+}
+#avatar{
+	height: 200px;
+	width: 200px;
+}
+#add{
+	color: #000000;
+	font-weight: 700;
+}
+#status{
+	color: #000000;
+	font-weight: 700;
+}
+#phone{
+	color: #000000;
+	font-weight: 700;
+}
+#aadhar{
+	color: #000000;
+	font-weight: 700;
+}
+#aadhars{
+	color: #000000;
+	font-weight: 700;
+}
+#deg{
+	color: #000000;
+	font-weight: 700;
+}
+#scan{
+    background-image: url("images/qr.svg");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position:right;
+    padding-right: 30px;
+
+}
