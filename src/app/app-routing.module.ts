@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IndexComponent } from './index/index.component';
 import { DoctComponent } from './doct/doct.component';
+import { DocloginComponent } from './doclogin/doclogin.component';
 import { ControlComponent } from './control/control.component';
 import { GuideComponent } from './guide/guide.component';
 import { SigninComponent } from './signin/signin.component';
@@ -13,6 +14,7 @@ import { AdminhComponent } from './adminh/adminh.component';
 const routes: Routes = [
   { path: '', component: IndexComponent },
   { path: 'doct', component: DoctComponent },
+  { path: 'doclogin', component: DocloginComponent },
   { path: 'control', component: ControlComponent },
   { path: 'guide', component: GuideComponent },
   { path: 'signin', component: SigninComponent },
