@@ -19,6 +19,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { environment } from '../environments/environment.prod';
 import { DocloginComponent } from './doclogin/doclogin.component';
+import { ProfileoffComponent } from './profileoff/profileoff.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { DocloginComponent } from './doclogin/doclogin.component';
     SigninComponent,
     SignupComponent,
     AdminhComponent,
-    DocloginComponent
+    DocloginComponent,
+    ProfileoffComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

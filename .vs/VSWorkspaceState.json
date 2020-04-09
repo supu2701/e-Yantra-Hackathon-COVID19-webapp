@@ -5,12 +5,12 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\control",
-    "\\src\\app\\doclogin",
-    "\\src\\app\\doct",
-    "\\src\\app\\guide",
+    "\\src\\app\\index",
+    "\\src\\app\\profile",
+    "\\src\\app\\profileoff",
     "\\src\\app\\signin",
     "\\src\\environments"
   ],
-  "SelectedNode": "\\src\\app\\signin\\signin.component.html",
+  "SelectedNode": "\\src\\app\\app-routing.module.ts",
   "PreviewInSolutionExplorer": false
 }
