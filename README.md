@@ -33,11 +33,11 @@ The project "GO CORONA" is a multilingual website-cum-app solution to the major 
 
 ## Process Flow
  
-![Alt Text](url)
-![Alt Text](url)
+![Process flow diagram](https://github.com/supu2701/e-Yantra-Hackathon-COVID19-webapp/blob/master/processflow1.png)
+![Process flow diagram](https://github.com/supu2701/e-Yantra-Hackathon-COVID19-webapp/blob/master/processflow2.png)
 
 ## Data Flow Diagram
 
-![Alt Text](https://github.com/supu2701/e-Yantra-Hackathon-COVID19-webapp/blob/master/dataflow.jpg)
+![Data Flow Diagram](https://github.com/supu2701/e-Yantra-Hackathon-COVID19-webapp/blob/master/dataflow.jpg)
 
 
