@@ -1,0 +1,73 @@
+
+/* FOR NAVBAR */
+body {
+  background-image: url("https://images.wallpaperscraft.com/image/sky_birds_flight_135782_3840x2400.jpg");
+}
+
+#list {
+  color: aliceblue;
+}
+
+#bg1 {
+  background-image: url("https://images.unsplash.com/photo-1532190370294-e81fe487b61a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  position: relative;
+}
+
+#head1 {
+  color: white;
+  font-weight: bold;
+}
+
+#pinfo {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+/* PROFILE */
+.logout {
+  margin-left: 80%;
+}
+/* CARDS */
+.coronaupdatecards {
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+/* REQUESTS */
+.requestt {
+  margin-bottom: 50px;
+}
+
+#request {
+  margin-left: 30%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.requestsection {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 40px;
+}
+
+.style {
+  background-color: #d4f8e8;
+}
+
+.sss {
+  background-color: #d1f5d3;
+  margin: none;
+  height: 50px;
+}
+
+.requestbtn {
+  margin-left: 80%;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: #9dc6a7;
+}

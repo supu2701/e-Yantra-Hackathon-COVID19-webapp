@@ -1,0 +1,173 @@
+<body>
+  <!-- HEADER navbar -->
+  <div class=fluid-container id="bg1">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
+
+        <h1 id="head1">GO CORONA</h1>
+        <p id="pinfo">A Web app to eradicate the spread of COVID-19 IN INDIA.</p>
+
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2e2d2d;">
+    <a class="navbar-brand" routerLink="../" id="brand">CORONA GO</a>
+    <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="nav navbar-nav nav-tabs">
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" routerLink="../">HOME</a></li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">WHO</a></li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" href="https://www.mohfw.gov.in/">ANNOUNCEMENTS</a></li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" href="https://indianhelpline.com/">EMERGENCY CONTACTS</a></li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" href="#">CONTACT ME</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- NAVBAR ENDS -->
+  <br><br>
+  <div *ngFor="let item of signup | async">
+    <div class="fluid-container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+          <img src="assets/dummy.jpg" height="250px" width="250px" class="img-fluid rounded-circle" id="ProImg">
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <h5>Name:</h5>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <p id="gpara1">{{item.name}}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <h5>Age:</h5>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <p id="gpara2">28</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <h5>Degree</h5>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <p id="gpara2">{{item.degree}}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <h5>phone:</h5>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <p id="gpara2">{{item.tel}}</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button type="button" class="btn btn-outline-dark btn-lg logout" routerLink="../signin">Log out</button>
+    </div>
+    <hr>
+
+    <!-- CARDS -->
+    <div class="coronaupdatecards">
+
+
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="assets/covid12.jfif" height="250px" alt="Card image cap">
+          <div class="card-body">
+
+            <p class="card-text">Current details of <a href="https://www.who.int/health-topics/coronavirus#tab=tab_1">coronavirus</a></p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/covid11.png" height="250px" alt="Card image cap">
+          <div class="card-body">
+
+            <p class="card-text">Present situation in different countries due to <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports">coronavirus</a> for updates.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/covidprevention.jfif" height="250px" alt="Card image cap">
+          <div class="card-body">
+
+            <p class="card-text">Informaton on <a href="https://www.who.int/news-room/detail/29-03-2020-information-sharing-on-covid-19">COVID-19</a> for prevention from further problems.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- REQUESTS SECTION -->
+    <div class="requestt">
+      <h1 id="request">Requests</h1>
+
+      <hr>
+
+
+
+      <div class="requestsection">
+        <!-- FIRST ROW -->
+        <div class="sss">
+
+          <div class="row">
+            <div class="col-lg-5 col-md-3 col-sm-6">
+              <p><strong>Name : </strong> Raj Kumar </p>
+            </div>
+            <div class="col-lg-5 col-md-3 col-sm-6">
+              <p><strong>Age : </strong> 45 </p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <a href="#" class="accept">Accept Request</a>
+            </div>
+          </div>
+
+        </div>
+        <hr>
+        <div class="sss">
+
+          <div class="row">
+            <div class="col-lg-5 col-md-3 col-sm-6">
+              <p><strong>Name : </strong> Neeraj Singh</p>
+            </div>
+            <div class="col-lg-5 col-md-3 col-sm-6">
+              <p><strong>Age : </strong> 58</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <a href="#" class="accept">Accept Request</a>
+            </div>
+
+
+          </div>
+          <hr>
+          <div class="sss">
+
+
+            <div class="row">
+              <div class="col-lg-5 col-md-3 col-sm-6">
+                <p><strong>Name : </strong> Das Gupta </p>
+              </div>
+              <div class="col-lg-5 col-md-3 col-sm-6">
+                <p><strong>Age:</strong> 65 </p>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6">
+                <a href="#" class="accept">Accept Request</a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

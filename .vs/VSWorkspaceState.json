@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\e2e",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\control",
+    "\\src\\app\\index",
+    "\\src\\app\\profile",
+    "\\src\\app\\profileoff",
+    "\\src\\app\\signin",
+    "\\src\\environments"
+  ],
+  "SelectedNode": "\\src\\app\\app-routing.module.ts",
+  "PreviewInSolutionExplorer": false
+}

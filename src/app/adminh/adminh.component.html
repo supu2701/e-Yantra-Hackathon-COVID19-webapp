@@ -1,0 +1,85 @@
+<body>
+  <div class=fluid-container id="bg1">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
+
+        <h1 id="head1">GO CORONA</h1>
+        <p id="pinfo">A Web app to eradicate the spread of COVID-19 IN INDIA.</p>
+
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2e2d2d;">
+    <a class="navbar-brand" routerLink="../" id="brand">CORONA GO</a>
+    <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="nav navbar-nav nav-tabs">
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" routerLink="../">HOME</a></li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">WHO</a></li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" href="https://www.mohfw.gov.in/">ANNOUNCEMENTS</a></li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" href="https://indianhelpline.com/">EMERGENCY CONTACTS</a></li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" href="#">CONTACT ME</a></li>
+      </ul>
+    </div>
+  </nav><br><br>
+
+  <div class="fluid-container">
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <form class="custom-form" (ngSubmit)="onSubmit(f)" #f="ngForm">
+          <h1 id="headf" style="text-align: center;">For Hospitals</h1><br>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field" id="cat">Category :</label></div>
+            <div class="col-sm-8 input-column">
+              <select class="form-control" id="sel1" ngModel name="hospitaltype">
+                <option>private hospital</option>
+                <option>govt. hospital</option>
+                <option>govt. school</option>
+                <option>railway station</option>
+                <option>hotel</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="email-input-field" id="bed">Price Per bed :</label></div>
+            <div class="col-sm-8 input-column"><input class="form-control" type="number" ngModel name="price"/></div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field" id="add">Address:</label></div>
+            <div class="col-sm-6 input-column"><textarea class="form-control" rows="5" id="comment" name="address" ngModel></textarea></div>
+            <img src="assets/images/location.png" onclick="img()" name="saveForm" class="img-fluid rounded" id="location" />
+          </div>
+          <button class="btn btn-primary submit-button" type="button">Submit</button>
+          </form>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <form class="custom-form" (ngSubmit)="onSubmit(f)" #f="ngForm">
+          <h1 id="headf" style="text-align: center;">Personal Details</h1><br>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field" id="aadhar">Enter Aadhar Number:</label></div>
+            <div class="col-sm-8 input-column"><input class="form-control" type="number" ngModel name="aadhar"/></div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="email-input-field" id="ibed">no. of isolated bed</label></div>
+            <div class="col-sm-8 input-column"><input class="form-control" type="number" name="isolated" ngModel/></div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field" id="add">Ambulance availability:</label></div>
+            <div class="col-sm-6 input-column">
+              <select class="form-control" id="sel2" name="availability" ngModel>
+                <option>yes</option>
+                <option>No</option>
+
+              </select>
+            </div>
+          </div><br><br>
+         <button class="btn btn-primary submit-button" type="button">Submit</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</body>
