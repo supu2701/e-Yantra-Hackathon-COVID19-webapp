@@ -33,11 +33,15 @@ The project "GO CORONA" is a multilingual website-cum-app solution to the major 
 
 ## Process Flow
  
+ This is the flowchart for combating the problems of migrant labourers by ensuring them that they receive the money provided by the government through the district border officers.
 ![Process flow diagram](https://github.com/supu2701/e-Yantra-Hackathon-COVID19-webapp/blob/master/processflow1.png)
+
+This is the flowchart of how this web applicatons helps people who need hospitalisation to find beds and take assistance through video calls.
 ![Process flow diagram](https://github.com/supu2701/e-Yantra-Hackathon-COVID19-webapp/blob/master/processflow2.png)
 
 ## Data Flow Diagram
 
+Data Flow Diagram
 ![Data Flow Diagram](https://github.com/supu2701/e-Yantra-Hackathon-COVID19-webapp/blob/master/dataflow.jpg)
 
 
