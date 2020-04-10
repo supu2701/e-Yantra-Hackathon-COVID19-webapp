@@ -1,0 +1,46 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/340541.jpg");
+  background-repeat: repeat;
+}
+
+#list {
+  color: aliceblue;
+}
+
+#bg1 {
+  background-image: url("https://images.unsplash.com/photo-1532190370294-e81fe487b61a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  position: relative;
+}
+
+#head1 {
+  color: white;
+  font-weight: bold;
+}
+
+#pinfo {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+#brand {
+  color: white;
+}
+
+#ProImg {
+  width: 70%;
+  height: auto;
+}
+
+#rowid {
+  margin-left: 15px;
+}
+
+#cols {
+  margin-left: 0px;
+}
+
+#trs-hd {
+  background-color: cornflowerblue;
+  width: auto;
+}

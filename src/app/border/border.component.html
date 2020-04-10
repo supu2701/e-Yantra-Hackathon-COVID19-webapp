@@ -1,0 +1,99 @@
+<body>
+  <div class=fluid-container id="bg1">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
+
+        <h1 id="head1">GO CORONA</h1>
+        <p id="pinfo">A Web app to eradicate the spread of COVID-19 IN INDIA.</p>
+
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2e2d2d;">
+    <a class="navbar-brand" routerLink="../" id="brand">CORONA GO</a>
+    <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="nav navbar-nav nav-tabs">
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" routerLink="../">HOME</a></li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">WHO</a></li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" href="https://www.mohfw.gov.in/">ANNOUNCEMENTS</a></li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" href="https://indianhelpline.com/">EMERGENCY CONTACTS</a></li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="list" href="#">CONTACT ME</a></li>
+      </ul>
+    </div>
+  </nav><br><br>
+
+  <div class="fluid-container">
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-4">
+
+        <div class="row" id="rowid" style="background:transparent url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8V6M-Q-I_xrsbzccF7oahFxoWQWCWVYe1ZOCtYAiGWFEqQvC0&s') no-repeat center center /cover">
+          <div class="col-lg-12 col-md-12 col-sm-12"><img src="assets/images/dummyid.jpg" class="rounded" id="ProImg"></div>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6"><h6>Name:</h6></div>
+              <div class="col-lg-6 col-md-6 col-sm-6"><p id="gpara1">Dummy</p></div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6"><h6>Age:</h6></div>
+              <div class="col-lg-6 col-md-6 col-sm-6"><p id="gpara2">28</p></div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6"><h6>Gender:</h6></div>
+              <div class="col-lg-6 col-md-6 col-sm-6"><p id="gpara3">Male</p></div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6"><h6>Location:</h6></div>
+              <div class="col-lg-6 col-md-6 col-sm-6"><p id="gpara4">Patna Border</p></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-8" id="cols">
+        <form class="custom-form">
+          <h1 id="headf" style="text-align: center;"><u>Register Here</u></h1><br>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field" id="name"><b>Name</b> </label></div>
+            <div class="col-sm-6 input-column"><input class="form-control" type="text" /></div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field" id="fName"><b>FatherName</b></label></div>
+            <div class="col-sm-6 input-column"><input class="form-control" type="text" /></div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="email-input-field" id="account"><b>AccountNo.</b></label></div>
+            <div class="col-sm-6 input-column"><input class="form-control" type="number" /></div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="pawssword-input-field" id="mob"><b>MobileNo.</b></label></div>
+            <div class="col-sm-6 input-column"><input class="form-control" type="tel" /></div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field" id="name"><b>Upload Your Id :</b></label></div>
+            <div class="col-sm-4 input-column"><input type="file" id="img" name="img" accept="image/*"></div>
+            <div class="col-sm-2 input-column"><input class="btn-danger" type="submit"></div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field" id="add"><b>Address:</b></label></div>
+            <div class="col-sm-4 input-column"><textarea class="form-control" rows="5" id="comment"></textarea></div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" id="gen"><b>Select Gender</b></label></div>
+            <div class="col-sm-4 input-column">
+              <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Select Gender </button>
+                <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Male</a><a class="dropdown-item" role="presentation" href="#">Female</a><a class="dropdown-item" role="presentation" href="#">Others</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1" /><label class="form-check-label" for="formCheck-1" id="lab">I&#39;ve read and accept the terms and conditions</label></div><button class="btn btn-primary submit-button" type="button">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>

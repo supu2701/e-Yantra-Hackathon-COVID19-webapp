@@ -11,11 +11,15 @@ import { SignupComponent } from './signup/signup.component';
 import { AdminhComponent } from './adminh/adminh.component';
 import { ProfileoffComponent } from './profileoff/profileoff.component';
 import { ProfileComponent } from './profile/profile.component';
+import { PaymentComponent } from './payment/payment.component';
+import { BorderComponent } from './border/border.component';
 
 const routes: Routes = [
   { path: '', component: IndexComponent },
   { path: 'doct', component: DoctComponent },
   { path: 'profileoff', component: ProfileoffComponent },
+  { path: 'border', component: BorderComponent },
+  { path: 'payment', component: PaymentComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'doclogin', component: DocloginComponent },
   { path: 'control', component: ControlComponent },

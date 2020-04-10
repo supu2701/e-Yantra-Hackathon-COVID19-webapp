@@ -21,6 +21,8 @@ import { environment } from '../environments/environment.prod';
 import { DocloginComponent } from './doclogin/doclogin.component';
 import { ProfileoffComponent } from './profileoff/profileoff.component';
 import { ProfileComponent } from './profile/profile.component';
+import { PaymentComponent } from './payment/payment.component';
+import { BorderComponent } from './border/border.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { ProfileComponent } from './profile/profile.component';
     AdminhComponent,
     DocloginComponent,
     ProfileoffComponent,
-    ProfileComponent
+    ProfileComponent,
+    PaymentComponent,
+    BorderComponent
   ],
   imports: [
     BrowserModule,
