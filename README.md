@@ -38,6 +38,6 @@ The project "GO CORONA" is a multilingual website-cum-app solution to the major 
 
 ## Data Flow Diagram
 
-![Alt Text](url)
-![Alt Text](url)
+![Alt Text](https://github.com/supu2701/e-Yantra-Hackathon-COVID19-webapp/blob/master/dataflow.jpg)
+
 
