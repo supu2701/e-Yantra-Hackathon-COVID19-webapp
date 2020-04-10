@@ -33,9 +33,11 @@ The project "GO CORONA" is a multilingual website-cum-app solution to the major 
 
 ## Process Flow
  
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+![Alt Text](url)
+![Alt Text](url)
 
 ## Data Flow Diagram
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Alt Text](url)
+![Alt Text](url)
 
