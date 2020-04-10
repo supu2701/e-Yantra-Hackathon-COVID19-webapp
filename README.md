@@ -1,27 +1,40 @@
-# Covid19
+# Title of the Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+The project "GO CORONA" is a multilingual website-cum-app solution to the major challenges of COVID-19 by proper management of facilities provided by the government as well as creating awareness regarding the precautionary steps as specified by who along with the official statistics of its spread.
 
-## Development server
+## Description
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Hardware Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-GPS tracking module interfacing with arduino(work still in progress).
+-Account tracker- This tracks the changes made in one's profile in the "GO CORONA" website. This is an additional feature.
 
-## Build
+## Software Requirements
 
+-For designing all the webpages of the website.
+-Canva(www.canva.com)
+-Figma(www.Figma.com)
+
+
+-For Frontend designing
+-Angular 6
+-It is a frontend development framework which make use of javascript
+
+-Languages Used
+-HTML,CSS using bootstrap(to make the webpages responsive).
+
+
+-For Backend Designing
+-Created a database o firebase app for storing the registered entries
+
+-Linked a website inside the GO-CORONA web-app which contains all info along with the graphical representation of the rates of spred of virus all at one place. It also opens up the Big-Bazzar website for purchase of food stuffs during lockdown.
+## Process Flow
+ 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Data Flow Diagram
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
